@@ -1,0 +1,32 @@
+/* Custom CSS Extensions */
+
+/* Animación pulse personalizada para íconos */
+@keyframes customPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.pos-btn.active {
+    border-color: #f97316 !important;
+    background-color: rgba(249, 115, 22, 0.3) !important;
+    box-shadow: 0 0 15px rgba(249, 115, 22, 0.4);
+}
+
+/* Suavizar scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+    background: #334155;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #f97316;
+}
